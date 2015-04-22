@@ -1,0 +1,19 @@
+modelo:
+  id: 1
+  nome: Posto Modelo
+  logradouro: "Av. Oliveira Paiva, 2"
+  bairro: Cidade dos funcionários
+  cidade: Fortaleza
+  latitude: -3.45
+  longitude: -38.555
+  uf: CE
+
+ale:
+  id: 2
+  nome: Posto Ala Vila Pery
+  logradouro: "Rua Cônego de Castro, 2"
+  bairro: Vila Pery
+  cidade: Fortaleza
+  latitude: -3.45
+  longitude: -38.555
+  uf: CE

@@ -1,0 +1,80 @@
+<%= form_for @posto, :html => { :class => "form-horizontal posto" } do |f| %>
+
+    <% if @posto.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@posto.errors.count, "erro") %>. posto não pode ser salvo:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @posto.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :nome, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :nome, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:nome]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :logradouro, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :logradouro, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:logradouro]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :numero, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :numero, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:numero]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :bairro, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :bairro, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:bairro]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :cidade, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :cidade, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:cidade]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :latitude, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :latitude, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:latitude]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :longitude, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :longitude, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:longitude]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :uf, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :uf, :class => 'form-control' %>
+    </div>
+    <%= error_span(@posto[:uf]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            postos_path, :class => 'btn btn-default' %>
+
+<% end %>

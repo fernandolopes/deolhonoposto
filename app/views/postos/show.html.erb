@@ -1,0 +1,33 @@
+<%- model_class = Posto -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:nome) %>:</strong></dt>
+  <dd><%= @posto.nome %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:logradouro) %>:</strong></dt>
+  <dd><%= @posto.logradouro %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:numero) %>:</strong></dt>
+  <dd><%= @posto.numero %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:bairro) %>:</strong></dt>
+  <dd><%= @posto.bairro %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:cidade) %>:</strong></dt>
+  <dd><%= @posto.cidade %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:latitude) %>:</strong></dt>
+  <dd><%= @posto.latitude %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:longitude) %>:</strong></dt>
+  <dd><%= @posto.longitude %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:uf) %>:</strong></dt>
+  <dd><%= @posto.uf %></dd>
+</dl>
+
+<%= link_to t('.back', :default => t("helpers.links.back")),
+              postos_path, :class => 'btn btn-default'  %>
+<%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_posto_path(@posto), :class => 'btn btn-default' %>
+<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              posto_path(@posto),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>

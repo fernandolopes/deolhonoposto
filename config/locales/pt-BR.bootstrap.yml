@@ -1,0 +1,22 @@
+# encoding: UTF-8
+# pt-BR translations for Ruby on Rails
+pt-BR:
+  breadcrumbs:
+    application:
+      root: "Índice"
+    pages:
+      pages: "Paginas"
+  helpers:
+    actions: "Ações"
+    links:
+      back: "Voltar"
+      cancel: "Cancelar"
+      confirm: "Você têm certeza?"
+      destroy: "Apagar"
+      new: "Novo"
+      edit: "Editar"
+    titles:
+      edit: "Editar %{model}"
+      save: "Salvar %{model}"
+      new: "Novo %{model}"
+      delete: "Apagar %{model}"
