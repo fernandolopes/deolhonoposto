@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PostosController GET #show" tests="1" time="0.001715967" failures="0" errors="0" skipped="1" timestamp="2015-12-09T16:53:14+00:00">
+  <testcase name="PostosController GET #show assigns the requested posto as @posto (PENDING)" time="0.001139631">
+    <skipped/>
+  </testcase>
+</testsuite>

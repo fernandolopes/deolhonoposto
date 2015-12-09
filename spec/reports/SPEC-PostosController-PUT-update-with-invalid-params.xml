@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PostosController PUT #update with invalid params" tests="2" time="0.002567797" failures="0" errors="0" skipped="2" timestamp="2015-12-09T16:53:14+00:00">
+  <testcase name="PostosController PUT #update with invalid params assigns the posto as @posto (PENDING)" time="0.001028834">
+    <skipped/>
+  </testcase>
+  <testcase name="PostosController PUT #update with invalid params re-renders the 'edit' template (PENDING)" time="0.000963753">
+    <skipped/>
+  </testcase>
+</testsuite>

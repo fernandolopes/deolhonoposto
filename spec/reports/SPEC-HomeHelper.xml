@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomeHelper" tests="1" time="0.002412565" failures="0" errors="0" skipped="1" timestamp="2015-12-09T16:53:14+00:00">
+  <testcase name="HomeHelper add some examples to (or delete) /home/vagrant/deolhonoposto/spec/helpers/home_helper_spec.rb (PENDING)" time="0.000136128">
+    <skipped/>
+  </testcase>
+</testsuite>

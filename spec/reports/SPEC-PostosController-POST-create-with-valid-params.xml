@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PostosController POST #create with valid params" tests="3" time="0.014644133" failures="0" errors="0" skipped="3" timestamp="2015-12-09T16:53:14+00:00">
+  <testcase name="PostosController POST #create with valid params creates a new Posto (PENDING)" time="0.010322104">
+    <skipped/>
+  </testcase>
+  <testcase name="PostosController POST #create with valid params assigns a newly created posto as @posto (PENDING)" time="0.001278831">
+    <skipped/>
+  </testcase>
+  <testcase name="PostosController POST #create with valid params redirects to the created posto (PENDING)" time="0.00172167">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="postos/index" tests="1" time="0.00289577" failures="0" errors="1" skipped="0" timestamp="2015-12-09T16:53:15+00:00">
+  <testcase name="postos/index renders a list of postos" time="0.002086197">
+    <error type="ActiveRecord::UnknownAttributeError" message="unknown attribute 'nota' for Posto.">
+unknown attribute 'nota' for Posto. (ActiveRecord::UnknownAttributeError)
+ActiveRecord::UnknownAttributeError:
+unknown attribute 'nota' for Posto.
+./spec/views/postos/index.html.erb_spec.rb:6:in `block (2 levels) in &lt;top (required)&gt;'    </error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PostosController POST #create with invalid params" tests="2" time="0.00493815" failures="0" errors="0" skipped="2" timestamp="2015-12-09T16:53:14+00:00">
+  <testcase name="PostosController POST #create with invalid params assigns a newly created but unsaved posto as @posto (PENDING)" time="0.003071149">
+    <skipped/>
+  </testcase>
+  <testcase name="PostosController POST #create with invalid params re-renders the 'new' template (PENDING)" time="0.001135959">
+    <skipped/>
+  </testcase>
+</testsuite>

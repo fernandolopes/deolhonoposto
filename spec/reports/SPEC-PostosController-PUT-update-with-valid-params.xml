@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PostosController PUT #update with valid params" tests="3" time="0.003462101" failures="0" errors="0" skipped="3" timestamp="2015-12-09T16:53:14+00:00">
+  <testcase name="PostosController PUT #update with valid params updates the requested posto (PENDING)" time="0.001138308">
+    <skipped/>
+  </testcase>
+  <testcase name="PostosController PUT #update with valid params assigns the requested posto as @posto (PENDING)" time="0.001121425">
+    <skipped/>
+  </testcase>
+  <testcase name="PostosController PUT #update with valid params redirects to the posto (PENDING)" time="0.000558135">
+    <skipped/>
+  </testcase>
+</testsuite>
