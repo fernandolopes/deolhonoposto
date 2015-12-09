@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PostosController DELETE #destroy" tests="2" time="0.012183649" failures="0" errors="0" skipped="2" timestamp="2015-12-09T16:53:14+00:00">
-  <testcase name="PostosController DELETE #destroy destroys the requested posto (PENDING)" time="0.001609256">
-    <skipped/>
-  </testcase>
-  <testcase name="PostosController DELETE #destroy redirects to the postos list (PENDING)" time="0.007826425">
-    <skipped/>
-  </testcase>
-</testsuite>

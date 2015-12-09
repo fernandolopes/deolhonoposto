@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Nota" tests="1" time="0.001068712" failures="0" errors="0" skipped="1" timestamp="2015-12-09T16:53:14+00:00">
-  <testcase name="Nota add some examples to (or delete) /home/vagrant/deolhonoposto/spec/models/nota_spec.rb (PENDING)" time="7.6484e-05">
-    <skipped/>
-  </testcase>
-</testsuite>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Postos GET /postos" tests="1" time="0.460589486" failures="0" errors="0" skipped="0" timestamp="2015-12-09T16:53:14+00:00">
-  <testcase name="Postos GET /postos works! (now write some real specs)" time="0.460017242">
-  </testcase>
-</testsuite>
